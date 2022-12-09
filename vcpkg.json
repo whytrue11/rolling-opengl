@@ -1,0 +1,11 @@
+{
+  "name": "cw-c",
+  "version-string": "0.1.0-dev",
+
+  "dependencies": [
+    "glfw3",
+    "glm",
+    "glew",
+    "tinyobjloader"
+  ]
+}
