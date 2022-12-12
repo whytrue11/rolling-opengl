@@ -2,6 +2,8 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
+#define STB_IMAGE_IMPLEMENTATION
+#include <stb_image.h>
 
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
@@ -9,8 +11,6 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtx/transform.hpp>
 #include <tiny_obj_loader.h>
-#define STB_IMAGE_IMPLEMENTATION
-#include "stb_image.h"
 
 namespace
 {
